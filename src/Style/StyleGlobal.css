@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.error-text {
+  color: red;
+}
+
+.pantalla {
+  display: flex;
+  min-height: 100vh;
+}
+
+.chat-vacio {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9a9a9a;
+  font-size: 18px;
+  padding: 24px;
+  text-align: center;
+}
+
+body[data-tema="oscuro"] .chat-vacio {
+  background-color: #1d1f1f;
+}
+
+.sin-resultados {
+  padding: 16px;
+  color: #9a9a9a;
+  text-align: center;
+}
+
+.imagen-contacto-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imagen-contacto {
+  width: 100%;
+}
+
+.contacto-fila {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contacto-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.contacto-info h2,
+.contacto-info p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+
+.contacto-meta {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-self: stretch;
+  gap: 6px;
+}
+
+.contacto-hora {
+  font-size: 12px;
+  line-height: 1;
+  color: #667781;
+}
+
+.badge-sin-leer {
+  position: absolute;
+  right: 12px;
+  bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  background-color: #25d366;
+  color: #ffffff;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+}
