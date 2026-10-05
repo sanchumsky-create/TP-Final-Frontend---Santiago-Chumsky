@@ -292,6 +292,7 @@ body[data-tema="oscuro"] {
   }
   .mensaje-estado.visto {
     color: #53bdeb;
+    letter-spacing: -4px;
   }
   .chat-barra {
     background-color: #202c33;
