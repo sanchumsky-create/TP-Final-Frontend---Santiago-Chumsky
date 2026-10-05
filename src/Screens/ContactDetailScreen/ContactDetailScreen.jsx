@@ -4,8 +4,6 @@ import Sidebar from "../../Components/Sidebar/Sidebar.jsx";
 import { contact_list } from "../../Components/Sidebar/models.js";
 
 const ContactDetailScreen = () => {
-  //Buena practica de legibilidad
-
   const { contact_id } = useParams();
   let contacto_seleccionado = null;
   for (const contacto of contact_list) {
