@@ -130,7 +130,7 @@ const contact_list = [
   },
   {
     id: 3,
-    nombre: "Yoda",
+    nombre: "Jane Watson",
     ultimo_mensaje: "Sisi voy",
     imagen:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2ElMjBzb25yaWVuZG98ZW58MHx8MHx8fDA%3D",
